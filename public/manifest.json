@@ -1,0 +1,15 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-648db.appspot.com/o/favicon.ico?alt=media&token=c237a28a-49e6-41a0-ac81-96b554e9c5d6",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "homepage": "https://martincartledge.github.io/portfolio/#/",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.1",
+    "re-base": "^3.2.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-hot-loader": "^4.1.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "precommit": "lint-staged",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
