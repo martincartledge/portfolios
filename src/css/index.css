@@ -1,0 +1,401 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #EB9532;
+  height: 200px;
+  padding: 20px;
+  color: #ECF0F1;
+  font-family: 'Share Tech Mono', monospace;
+  margin-top: 200px;
+}
+
+.App-header h2 {
+  font-size: 3em;
+  margin-top: 40px;
+}
+
+.App-header h4 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.App-nav {
+  color: #EB9532;
+  font-size: 1em;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: -2px;
+}
+
+.App-nav:hover {
+  text-decoration: none;
+}
+
+.Second-header {
+  background-color: #ECF0F1;
+  height: 100px;
+  padding: 20px;
+  color: #ECF0F1;
+}
+
+.Second-nav {
+  margin-top: 15px;
+}
+
+.Second-nav:hover {
+  color: #EB9532;
+  margin-top: 15px;
+}
+
+.well {
+  background-color: #ECF0F1;
+  box-shadow: none;
+  border: none;
+  margin: 100px;
+  padding: 15px;
+}
+
+.project-title {
+  font-family: 'Share Tech Mono', monospace;
+  text-transform: uppercase;
+  color: #2c3e50;
+  font-size: 2em;
+
+}
+
+.project-lang {
+  font-style: italic;
+}
+
+.contact-space {
+  padding: 30px;
+  color: #EB9532;
+  font-size: 3em;
+}
+
+.active {
+  background-color: #2c3e50;
+  color: #ECF0F1;
+  text-decoration: none;
+}
+
+.active:hover {
+  background-color: #2c3e50;
+  color: #ECF0F1;
+  text-decoration: none;
+}
+
+.name {
+  overflow: hidden;
+  width: 15em;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.title {
+  color: #2c3e50;
+  font-style: italic;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.home-list {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #2c3e50;
+}
+
+.project {
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  /*max-width: 600px;*/
+  height: auto;
+  /*margin-left: 0px;*/
+}
+
+.project-img {
+  width: 500px;
+  border-radius: .5em;
+}
+
+.btn, .btn:visited {
+  background-color: transparent;
+  border: 2px solid #2c3e50;
+  color: #EB9532;
+  border-radius: .5em;
+  line-height: 1.5em;
+  padding: .5em;
+  margin: .3em;
+  text-decoration: none;
+}
+
+.not-found {
+  width: 300px;
+  padding: 40px;
+}
+
+.coming-soon {
+  width: 250px;
+  padding: 40px;
+}
+
+.btn:hover, .btn:active {
+  font-size: 1em;
+  transition: .3s ease-in-out;
+  background-color: #2c3e50;
+  border: 2px solid #EB9532;
+  color: #ECF0F1;
+}
+
+.sub-intro {
+  text-transform: uppercase;
+  padding: 150px;
+}
+
+.number {
+  color: #2c3e50;
+  font-size: 1.2em;
+}
+
+.about {
+  padding: 50px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 500px;
+}
+
+.icon {
+  margin-top: 50px;
+}
+
+.contact-info {
+  margin-top: -150px;
+}
+
+.contact.contact-info.icon {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 400px;
+}
+
+.about-intro {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.em {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.skillset {
+  padding: 10px;
+  background-color: #EB9532;
+  color: #2c3e50;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  text-align: left;
+}
+
+.skill-btn {
+  cursor: default;
+}
+
+.orange-dot {
+  color: #EB9532;
+  font-size: 3em;
+}
+
+.email {
+  color: #2c3e50;
+  font-size: .6em;
+}
+
+.email:hover {
+  color: #2c3e50;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.fa-fw {
+  color: #EB9532;
+}
+
+.fa-fw:hover {
+  font-size: 1.2em;
+  transition: .3s ease-in-out;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.home {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 750px;
+}
+
+/* Phones (480px and below) */
+@media (max-width: 480px) {
+
+  .home {
+    position: relative;
+  }
+
+  .contact {
+    position: relative;
+  }
+
+  .project-img {
+    width: 300px;
+  }
+
+  .contact-space {
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+    background-color: #2c3e50;
+  }
+
+  .about {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-intro {
+    margin-top: 0px;
+  }
+
+  .project {
+    position: relative;
+  }
+
+  .well {
+    background-color: transparent;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .App-header {
+    margin-top: 0px;
+    height: 400px;
+  }
+
+  .Second-header {
+    display: none;
+  }
+
+  .App-header h2 {
+    font-size: 2.5em;
+    margin-top: 110px;
+  }
+
+  .App-header h4 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+
+  .active:hover {
+    background-color: #2c3e50;
+    color: #ECF0F1;
+    text-decoration: none;
+  }
+
+  nav {
+    margin-top: 0px;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .icon {
+    padding: 100px;
+    font-size: 6em;
+    margin-top: -50px;
+  }
+
+  .contact {
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  .contact-info {
+    padding: 20px;
+    margin-top: -80px;
+  }
+}
+
+/* Small devices (tablets, 481px and up) */
+@media (min-width: 481px) {
+
+  .contact-space {
+    display: none;
+  }
+
+  .active {
+    background-color: #2c3e50;
+    color: #ECF0F1;
+    text-decoration: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .icon {
+    padding: 150px;
+    font-size: 4em;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .contact-space {
+    display: none;
+  }
+
+  .active {
+    color: #ECF0F1;
+    text-decoration: none;
+  }
+
+  nav {
+      display: none;
+  }
+}
